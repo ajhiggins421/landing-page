@@ -7,13 +7,15 @@ body, html {
     justify-content: space-between;
 }
 
+
+
 .header {
     display: flex;
     background-color: #1F2937;
     padding: 10px;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 450px;
 }
 
 ul {
@@ -39,13 +41,13 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 .content-one {
     display: flex;
@@ -59,9 +61,17 @@ h1 {
    width: 400px;
 }
 
+.c1-button a{
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+
 .secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 5px;
 }
 
 .header-image {
@@ -76,7 +86,8 @@ button{
     font-size: 16px;
     color: white;
     border: none;
-    padding: 6px;
+    padding: 6px 8px;
+    width: 80px;
 }
 
 .content-two{
@@ -90,12 +101,14 @@ button{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    
 
 }
 .c2-container{
     display:flex;
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .c2-content div{
@@ -103,7 +116,7 @@ button{
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 20px;
-    flex: auto;
+    flex: 0 0 0;
 }
 
 .c2-content {
@@ -149,26 +162,43 @@ button{
     justify-content: space-around;
     align-items: center;
     gap: 90px;
-    padding: 20px;
+    padding: 26px;
 }
 
 .small-text {
-    color: #E5E7EB;
+    color: #ffffffb0;
     font-size: 12px;
-    font-weight: lighter;
+    margin-top: 6px;
 }
 
 .c4-title {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 500;
     color: #E5E7EB;
+    margin: 0px;
+}
+.c4-button a {
+    font-size: 16px;
+    font-weight: 500;
 }
 .c4-button{
     border: 2px solid #E5E7EB;
     border-radius: 6px;
-    padding: 3px 6px;
+    padding: 8px 6px;
+    width: 120px;
+    text-align: center;
+    
 }
 
+.c4-button:hover, .c1-button:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
+.c4-button:hover a, .c1-button:hover a{
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
 .footer{
     background-color: #1F2937;
     display: flex;
@@ -179,3 +209,4 @@ button{
     font-weight: lighter;
     padding: 26px;
 }
+
