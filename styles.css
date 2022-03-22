@@ -168,26 +168,29 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 26px;
+    padding: 40px 20px;
     flex-wrap: wrap;
 }
 
 .small-text {
     color: #ffffffb0;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 6px;
+    margin-bottom: 0px;
 }
 
 .c4-title {
     font-size: 24px;
-    font-weight: 500;
-    color: #E5E7EB;
+    font-weight: 550;
+    color: #e6e8ec;
     margin: 0px;
 }
 .c4-button a {
     font-size: 16px;
     font-weight: 500;
 }
+
+
 .c4-button{
     border: 2px solid #E5E7EB;
     border-radius: 6px;
@@ -222,3 +225,6 @@ button{
     padding: 0px;
 }
 
+* {
+    border: 0px solid red; 
+}
